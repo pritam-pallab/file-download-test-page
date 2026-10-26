@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>File Download Test Page</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 32rem; margin: 3rem auto; padding: 0 1rem; }
+    a.button { display: inline-block; margin: .5rem .5rem .5rem 0; padding: .6rem 1rem; border: 1px solid #333; border-radius: 6px; text-decoration: none; color: #111; }
+    a.button:hover { background: #eee; }
+  </style>
+</head>
+<body>
+  <h1>File Download Test Page</h1>
+  <p>Sample files for testing downloaded-file content validation.</p>
+  <p>
+    <a id="download-csv" class="button" href="sample.csv" download="sample.csv">Download CSV</a>
+    <a id="download-pdf" class="button" href="sample.pdf" download="sample.pdf">Download PDF</a>
+  </p>
+  <p>CSV contains the text <code>Riverside</code>. PDF contains <code>INV-1001</code>.</p>
+</body>
+</html>
